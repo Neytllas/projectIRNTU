@@ -85,7 +85,8 @@
 {
     margin-top: 120px;
     background: #2A5EE8;
-    width: 1440px;
+    top: 0;
+    left: 0;
     height: 406px;
     background-position-x: center;
 }
@@ -127,4 +128,160 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+}
+
+.section-3
+{
+    margin-top: 117px;
+}
+
+.section-3 h1
+{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #111111;
+}
+
+.section-3 .nav-item
+{
+    margin-top: 80px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #333333;
+}
+
+.section-3 .nav-item:hover
+{
+    color: #2A5EE8;
+}
+
+.section-3 .billet .col
+{
+    margin-top: 65px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    /* Typography / Title */
+
+    color: #111111;
+}
+
+.section-3 .event-card
+{
+    margin-top: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-3 .event-card .event-card-text h6
+{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+    color: #333333;
+    
+    border-bottom: 1px;
+    background: #2A5EE8;
+    border-radius: 5px;
+    width: 35px;
+    height: 3px;
+}
+
+.section-3 .event-card .event-card-text h3
+{
+    margin-top: 30px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #111111;
+}
+
+.section-3 .event-card .event-card-text 
+{
+    margin-top: 30px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    color: #111111;
+}
+
+.sponsor
+{    
+    margin-top: 30px;
+    margin-right: 90px;
+    margin-left: 24px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+
+    color: #333333;
+
+}
+
+.verse
+{
+    display: table;
+    margin: 0 auto;
+    display: table;
+    white-space: pre-line;
+    word-wrap: break-word;
+}
+
+.date
+{
+    margin-top: 88px;
+    margin-right: 93px;
+    margin-left: 179px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.15em;
+
+    color: #333333;
 }
