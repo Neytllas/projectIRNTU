@@ -1,4 +1,4 @@
-.main-info
+.section-1 .main-info
 {
     font-family: Raleway;
     font-style: normal;
@@ -13,12 +13,12 @@
     color: #2A5EE8;
 }
 
-.welcome-information
+.section-1 .welcome-information
 {
     margin-top: 50px;
 }
 
-.welcome-information .col > h6
+.section-1 .welcome-information .col h6
 {
     font-family: Raleway;
     font-style: normal;
@@ -40,7 +40,7 @@
     margin: 10px 0px;
 }
 
-.welcome-information .col> h1
+.section-1 .welcome-information .col h1
 {
     font-family: Raleway;
     font-style: normal;
@@ -79,5 +79,52 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+}
 
+.section-2 
+{
+    margin-top: 120px;
+    background: #2A5EE8;
+    width: 1440px;
+    height: 406px;
+    background-position-x: center;
+}
+
+.section-2 .col
+{
+    margin-top: 87px;
+    text-align: center; 
+}
+
+.section-2 .images
+{
+    margin-bottom: 15px;
+}
+
+.section-2 .about-information h3 
+{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.section-2 .text
+{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
 }
