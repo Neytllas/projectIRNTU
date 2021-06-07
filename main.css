@@ -87,14 +87,17 @@
     background: #2A5EE8;
     top: 0;
     left: 0;
-    height: 406px;
+    margin-bottom: 117px;
     background-position-x: center;
+    
+    
 }
 
 .section-2 .col
 {
     margin-top: 87px;
     text-align: center; 
+    padding-bottom: 87px;
 }
 
 .section-2 .images
@@ -126,6 +129,7 @@
     text-align: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+   
 
     color: #FFFFFF;
 }
@@ -244,12 +248,18 @@
     color: #111111;
 }
 
+.event-card-image
+{
+    width: 100%;
+    height: 100%;
+}
+
 .sponsor
 {    
     margin-top: 30px;
     margin-right: 90px;
     margin-left: 24px;
-    
+
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
