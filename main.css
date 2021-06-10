@@ -81,6 +81,8 @@
     color: #FFFFFF;
 }
 
+
+
 .section-2 
 {
     margin-top: 120px;
@@ -88,9 +90,7 @@
     top: 0;
     left: 0;
     margin-bottom: 117px;
-    background-position-x: center;
-    
-    
+    background-position-x: center;   
 }
 
 .section-2 .col
