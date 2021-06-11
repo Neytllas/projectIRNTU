@@ -4,7 +4,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
-    line-height: 21px;
     display: flex;
     align-items: center;
     letter-spacing: 0.15em;
@@ -24,11 +23,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 10px;
-    line-height: 12px;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
@@ -46,8 +41,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
-    line-height: 56px;
-
 
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -74,7 +67,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
-    line-height: 21px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
@@ -93,12 +85,17 @@
     background-position-x: center;   
 }
 
-.section-2 .col
+.section-2 .about-information > div
 {
     margin-top: 87px;
     text-align: center; 
-    padding-bottom: 87px;
 }
+
+.section-2 .about-information > div:last-child
+{
+    margin-bottom: 87px;
+}
+
 
 .section-2 .images
 {
@@ -111,7 +108,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
-    line-height: 28px;
     text-align: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -125,7 +121,6 @@
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    line-height: 14px;
     text-align: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -145,7 +140,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
-    line-height: 56px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
@@ -159,7 +153,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 21px;
     text-align: center;
     letter-spacing: 0.15em;
 
@@ -171,18 +164,16 @@
     color: #2A5EE8;
 }
 
-.section-3 .billet .col
+.section-3 .billet h2
 {
-    margin-top: 65px;
 
     font-family: Raleway;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
-    line-height: 28px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-
+    margin: 0;
     /* Typography / Title */
 
     color: #111111;
@@ -193,11 +184,17 @@
     margin-top: 100px;
 }
 
-.section-3 .box
+.section-3 .event-card
 {
-    background: #F8F8F8;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
+
+.section-3 .event-card-completed {
+    background: #F8F8F8;
+    filter: grayscale(1) ;
+}
+
 
 .section-3 .event-card-mini
 {
@@ -206,7 +203,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    line-height: 14px;
 
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -221,7 +217,6 @@
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
@@ -239,7 +234,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
@@ -251,7 +245,6 @@
 
 
 .section-3 .navbar  {
-    margin:  0 8px;
     border-bottom: 4px solid silver; padding: 0;
 }
 
@@ -289,7 +282,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
-    line-height: 28px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
@@ -305,7 +297,6 @@
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    line-height: 14px;
     letter-spacing: 0.15em;
     text-decoration-line: underline;
     text-transform: uppercase;
@@ -313,7 +304,18 @@
     color: #FFFFFF;
 }
 
+.page-footer a
+{
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    display: block;
+}
 
 
 
+
+.billet input {
+    border-radius: 25px;
+    padding: 11px 16px 11px 16px;
+}
 
