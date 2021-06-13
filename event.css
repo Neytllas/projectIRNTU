@@ -53,7 +53,6 @@
     margin-bottom: 105px;
 }
 
-
 .btn-other
 {
     width: 445px;
@@ -84,6 +83,11 @@
     top: 0;
     left: 0;
     background-position-x: center;   
+}
+
+.event-other-text-mini
+{
+    color: #2A5EE8;
 }
 
 .section-2-event .main-about-event
