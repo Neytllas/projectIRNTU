@@ -117,6 +117,122 @@
     color: #333333;
 }
 
+.modal-content
+{
+    background: #2A5EE8;
+}
+
+.modal-title
+{
+    margin-top: 23px;
+    margin-bottom: 23px;
+
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.modal .btn-close 
+{
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+}
+
+.FIO
+{
+    margin-bottom: 10px;
+}
+
+.Email
+{
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.Check
+{
+    margin-top: 55px;
+
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+}
+
+.form-text
+{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+}
+
+.form-group-radius
+{
+    border-radius: 25px;
+}
+
+.form-text-mini
+{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #DA1414;
+}
+
+.form-check-input[type=checkbox] 
+{
+    border-radius: 25px;
+
+}
+
+.btn-primary
+{
+    width: 445px;
+    height: 60px;
+
+    margin-top: 55px;
+    margin-bottom: 19px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: 0;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+    color: #2A5EE8;
+}
+
 .page-footer
 {
     background: #2A5EE8;
@@ -158,3 +274,5 @@
     margin-bottom: 15px;
     display: block;
 }
+
+

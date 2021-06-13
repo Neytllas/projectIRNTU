@@ -47,7 +47,7 @@
                             <div class="text-bold">Участвуют: <span class="event-other-text-mini">2000</span> <img src="/images/people-icon.svg" alt=""></div> 
                             <div class="text-bold">До начала: <span class="event-other-text-mini">5 дней</span> </div>
                         </div>
-                        <a href="/request.html"><button class="btn-other">Подать заявку на участие</button></a>  
+                        <button class="btn-other"  data-bs-toggle="modal" data-bs-target="#exampleModal">Подать заявку на участие</button>
                     </div>
                     
 
@@ -77,6 +77,38 @@
                 </div>
             </div>
          </section>
+
+         <!-- Modal -->
+
+         <div class="modal" id="exampleModal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Подача заявки на мероприятие</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                      <div class="form-group">
+                        <label class="form-text FIO" for="exampleInputFIO">Введите ФИО <span class="form-text-mini" >*</span> </label>
+                        <input type="fio" class="form-control form-group-radius" id="exampleInputFIO" placeholder="Фамилия Имя Отчество">
+                      </div>
+                      <div class="form-group">
+                        <label class="form-text Email" for="exampleInputEmail">Введите email <span class="form-text-mini" >*</span> </label>
+                        <input type="email" class="form-control form-group-radius" id="exampleInputEmail" placeholder="example@example.example">
+                      </div>
+                      <div class="form-check align-items-center"> 
+                        <input type="checkbox" class="form-check-input check-input" id="exampleCheck1">
+                        <label class="form-check-label check-label-style Check" for="exampleCheck1">Я даю согласие на обработку персональных данных</label>
+                      </div>
+                      <button type="button" class="btn btn-primary">Подать заявку на участие</button>
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
       </main>
 
       <footer class="page-footer">
