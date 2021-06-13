@@ -16,7 +16,7 @@
          href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
          rel="stylesheet"
          />
-      <title>Project</title>
+      <title>Event</title>
    </head>
    <body>
       <main>
@@ -47,8 +47,7 @@
                             <div class="text-bold">Участвуют: <span class="event-other-text-mini">2000</span> <img src="/images/people-icon.svg" alt=""></div> 
                             <div class="text-bold">До начала: <span class="event-other-text-mini">5 дней</span> </div>
                         </div>
-                        
-                        <button class="btn-other">Подать заявку на участие</button>
+                        <a href="/request.html"><button class="btn-other">Подать заявку на участие</button></a>  
                     </div>
                     
 
@@ -111,5 +110,11 @@
          integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
          crossorigin="anonymous"
          ></script>
+         <script type="module">
+            import { Toast } from 'bootstrap.esm.min.js'
+          
+            Array.from(document.querySelectorAll('.toast'))
+              .forEach(toastNode => new Toast(toastNode))
+          </script>
    </body>
 </html>
