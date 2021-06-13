@@ -1,4 +1,4 @@
-.section-1 .main-info
+.main-info
 {
     font-family: Raleway;
     font-style: normal;
@@ -184,13 +184,19 @@
     margin-top: 100px;
 }
 
+.section-3 .event-card-box 
+{
+    height: 240px;
+}
+
 .section-3 .event-card
 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
 
-.section-3 .event-card-completed {
+.section-3 .event-card-completed 
+{
     background: #F8F8F8;
     filter: grayscale(1) ;
 }
@@ -223,6 +229,11 @@
     color: #111111;
 }
 
+.section-3 .event-card-data-box
+{
+    height: 44px;
+}
+
 .section-3 .event-card-data
 {
     margin-top: 59px;
@@ -244,19 +255,23 @@
 }
 
 
-.section-3 .navbar  {
+.section-3 .navbar  
+{
     border-bottom: 4px solid silver; padding: 0;
 }
 
-.section-3 .nav-item {
+.section-3 .nav-item 
+{
     margin: 80px 47px -4px 47px;
 }
 
-.section-3 .nav-item:nth-child(1) {
+.section-3 .nav-item:nth-child(1) 
+{
     margin-left: 0;
 }
 
-.section-3 .nav-item.active {
+.section-3 .nav-item.active 
+{
     border-bottom: 4px solid blue;
 }
 
