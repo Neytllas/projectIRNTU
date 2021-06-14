@@ -275,4 +275,14 @@
     display: block;
 }
 
+@media (max-width: 525px)
+{
+
+    .btn-other
+    {
+        width: 345px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
 
