@@ -12,12 +12,19 @@
     color: #2A5EE8;
 }
 
+
+/* @keyframes move_eye { from { transform: rotate(0deg); } to { transform: rotate(359deg); }  }
+
+body {
+    animation: move_eye linear 4s infinite ;
+} */
+
 .section-1 .welcome-information
 {
     margin-top: 50px;
 }
 
-.section-1 .welcome-information .col h6
+.section-1 .welcome-information h6
 {
     font-family: Raleway;
     font-style: normal;
@@ -35,7 +42,7 @@
     margin: 10px 0px;
 }
 
-.section-1 .welcome-information .col h1
+.section-1 .welcome-information h1
 {
     font-family: Raleway;
     font-style: normal;
@@ -162,6 +169,22 @@
     color: #2A5EE8;
 }
 
+.section-3 .event-card-year
+{
+    margin-bottom: 22px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+
+    padding: 2em 2em 0 2em;
+    
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+    color: #333333;
+}
+
 .section-3 .billet h2
 {
 
@@ -185,6 +208,8 @@
 .section-3 .event-card-box 
 {
     height: 240px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-3 .event-card
@@ -202,7 +227,8 @@
 
 .section-3 .event-card-mini
 {
-    margin-bottom: 22px;
+    flex-grow: 1;
+    
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
@@ -211,7 +237,31 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
+
     color: #333333;
+}
+
+.section-3 .event-card-mini > div {
+    max-height: 100%;
+    overflow: hidden;
+    transition: all .3s;
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    
+    padding: 0 2em 2em 2em;
+}
+
+.section-3 .event-card-completed .event-card-mini > div
+{
+    background-color: #F8F8F8;
+}
+
+
+
+.section-3 .event-card-mini:hover > div {
+    max-height: 400px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .section-3 .event-card-text
@@ -223,6 +273,7 @@
     font-size: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    padding: 0 2em 0 2em;
 
     color: #111111;
 }
@@ -234,7 +285,6 @@
 
 .section-3 .event-card-data
 {
-    margin-top: 59px;
     text-align: center;
     padding: 14px 0;
 
@@ -283,7 +333,7 @@
 
 .page-footer
 {
-    margin-top: 120px;
+    margin-top: 0;
     background: #2A5EE8;
 }
 
@@ -332,9 +382,14 @@
 
 @media (max-width: 525px)
 {
-     .welcome-information
+    .section-1 .welcome-information h1
     {
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    .section-3 h1
+    {
+        font-size: 35px;
     }
 
     .btn-other

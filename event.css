@@ -161,7 +161,6 @@
 
 .Check
 {
-    margin-top: 55px;
 
     text-align: center;
     font-family: Raleway;
@@ -173,6 +172,15 @@
     letter-spacing: 0.15em;
 
     color: #FFFFFF;
+}
+
+.form-check-input {
+    margin-top: 0;
+    margin-right: 1em;
+}
+
+.form-check {
+    margin-top: 55px;
 }
 
 .form-text
@@ -231,6 +239,18 @@
     text-transform: uppercase;
     
     color: #2A5EE8;
+}
+
+.modal-dialog .close-button
+{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.modal-header
+{
+    border-bottom: none;
 }
 
 .page-footer
