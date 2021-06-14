@@ -78,7 +78,6 @@
 
 .section-2-event
 {
-    margin-top: 80px;
     background: #F8F8F8;
     top: 0;
     left: 0;
@@ -241,6 +240,12 @@
     color: #2A5EE8;
 }
 
+.organizers
+{
+    margin-top: 53.5px; 
+    margin-bottom: 30px;
+}
+
 .modal-dialog .close-button
 {
     color: white;
@@ -303,6 +308,40 @@
         width: 345px;
         height: 60px;
         font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1090px)
+{
+    .event-name
+    {
+        margin-bottom: 30px;
+    }
+
+    .text-under-image
+    {
+        margin-bottom: 30px;
+    }
+
+    .section-2-event .main-about-event
+    {
+        margin-top: 30px;
+    }
+
+    .organizers
+    {
+        margin-top: 30px; 
+        margin-bottom: 30px;
+    }
+    .btn-other
+    {
+        width: 345px;
+        height: 60px;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
