@@ -160,7 +160,7 @@
 
 .Check
 {
-
+    position: fixed;
     text-align: center;
     font-family: Raleway;
     font-style: normal;

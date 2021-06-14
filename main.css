@@ -325,6 +325,11 @@ body {
     box-sizing: border-box;
 }
 
+.form-control
+{
+    text-transform: lowercase;
+}
+
 
 .section-3 .navbar  
 {
