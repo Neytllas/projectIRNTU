@@ -423,3 +423,15 @@ body {
     }
 }
 
+@media (max-width: 770px)
+{
+    .section-3 .row
+    {
+        margin-top: 25px;
+    }
+
+    .form-control
+    {
+        margin-bottom: 25px;
+    }
+}
